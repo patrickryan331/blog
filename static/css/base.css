@@ -1,5 +1,6 @@
 body {
     background-color: rgb(233, 212, 168);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
@@ -24,4 +25,22 @@ h3 {
 
 p {
     text-align: center;
+}
+
+
+.card {
+    background-color: rgb(246, 218, 217);
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 750px;
+    text-align: center;
+}
+
+.nav-link {
+    margin-right: 15px;
+}
+
+.btn {
+    margin-left: auto;
 }
