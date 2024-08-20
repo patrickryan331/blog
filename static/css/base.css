@@ -15,16 +15,16 @@ body {
 }
 
 h1 {
-    margin: 25px auto 25px auto;
-    text-align: center;
+    /* margin: 25px auto 25px auto; */
+    /* text-align: center; */
 }
 
 h3 {
-    text-align: center;
+    /* text-align: center; */
 }
 
 p {
-    text-align: center;
+    /* text-align: center; */
 }
 
 
@@ -41,6 +41,18 @@ p {
     margin-right: 15px;
 }
 
-.btn {
-    margin-left: auto;
+.login-btn {
+    text-align: center;
+    display: inline;
+    background-color: rgb(255, 203, 124);
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 550;
+}
+
+
+.reset-complete-container {
+    display: inline;
+    align-items: center;
 }

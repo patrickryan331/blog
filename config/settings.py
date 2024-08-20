@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'posts',
     'pages',
+    'accounts',
 ]
 
 MIDDLEWARE = [
@@ -131,3 +132,7 @@ LOGIN_REDIRECT_URL = "home"
 LOGOUT_REDIRECT_URL = "home"
 
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
+
+
+
+AUTH_USER_MODEL = "accounts.CustomUser"
